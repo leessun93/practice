@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+           div {
+               width : 180px;
+               height: 60px;
+               font-size: 20px;
+               text-align: center;
+               display: table-cell;
+               vertical-align: middle;
+               cursor: no-drop;
+           }
+           td {
+                width : 180px;
+                height: 60px;
+                font-size: 20px;
+                text-align: center;
+                vertical-align: middle;
+           }
+           button {
+                width : 180px;
+                height: 60px;
+                font-size: 20px;
+                text-align: center;
+                vertical-align: middle;
+           }
+
+           a {  
+                display: inline-block;
+                width : 180px;
+                height: 60px;
+                font-size: 20px;
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+            }
+            /* a테그는 인라인 속성이기때문에 와이드와 하이가 안먹는다 */
+           .save {
+               border: 3px solid #A6A6A6;
+               background-color: #BFBFBF;
+               border-radius : 10px;
+
+            }
+            .del {
+                border: 3px solid #F47378;
+               background-color: #F8A1A4;
+               border-radius : 10px;
+
+            }   
+            .fix {
+                border: 3px solid #94D8F6;
+               background-color: #60C5F1;
+               border-radius : 10px;
+
+            }
+            .save:hover {
+                border: 3px solid #3d1717;
+               background-color: #ad5050;
+               border-radius : 10px;
+            }
+            .del:hover {
+                border: 3px solid #107a15;
+               background-color: #62e092;
+               border-radius : 10px
+            }
+            .fix:hover {
+                border: 3px solid #bd6116;
+               background-color: #c52d79;
+               border-radius : 10px
+            }
+            .loginbtn {
+                border: 3px solid #94D8F6;
+               background-color: #60C5F1;
+               border-radius : 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="save">저장버튼</div><br>
+        <div class="del">삭제버튼</div><br>
+        <div class="fix">수정버튼</div><br>
+   
+       <table>
+            <tr>
+               <td class="save">저장버튼</td>
+            </tr>
+            <tr>
+                <td class="del">삭제버튼</td>
+            </tr>
+            <tr>
+               <td class="fix">수정버튼</td>
+           </tr>
+       </table>
+        
+       <button class="save">저장버튼</button><br>
+       <button class="del">삭제버튼</button><br>
+       <button class="fix">수정버튼</button><br>
+
+       <a class="loginbtn" href="" >로그인페이지</a>
+        
+
+    </body>
+
+</html>

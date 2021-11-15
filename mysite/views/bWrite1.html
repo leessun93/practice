@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>이선흠의 홈페이지 입니다</title>
+        <link rel="stylesheet"  href="../asset/css/mysite.css">
+        <link rel="stylesheet"  href="../asset/css/board.css">
+        <style>
+       </style>
+           
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+      
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+
+
+            </div>
+            <!-- 컨텐츠 -->
+            <div id="contents2" class="clearfix">
+                <div id="aside">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li><a href="">일반 게시판</a></li>
+                        <li><a href="">댓글 게시판</a></li>
+                        <li><a href="">첨부 게시판</a></li>
+                    </ul>
+
+                </div>
+            
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ul>                     
+                    </div>
+                    <from action="" method="">
+                        <div class="a">
+                            <label for="selectboard">게시판 선택</label>
+                                <select> 
+                                    <option value="" selected="select">선택해주세요</option>
+                                    <option value="normalboard">일반 게시판</option>
+                                    <option value="comantboard">댓글 게시판</option>
+                                    <option value="fileboard">첨부 게시판</option>
+                                </select>
+                        </div>
+
+                        <div class="b">
+                            <label>제목</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="c">
+                            <label for="user_pass_word">비밀번호</label>
+                    
+                    
+                            <input type="password" id="user_pass_word" name="Pswd" value="" placeholder="패스워드를 입력하세요">
+                       
+                        </div>
+                        <div class="d">
+                            
+                            <laber for="show-size">공개범위</laber>
+                            <label for="show-size">본인</label>
+                            <input type="radio" id="me" name="show-size" value="" checked="checkbox">
+                            <label for="login-user">로그인회원</label>
+                            <input type="radio" id="login-user" name="show-size" value="">
+                            <label for="friend">친구</label>
+                            <input type="radio" id="friend" name="show-size" value="">
+                            <label for="show-size">전체</label>
+                            <input type="radio" id="forall" name="show-size" value="">
+             
+                        </div>
+
+                        <div class="e">
+                            <label for="allow_size">허용범위</label>
+                            <label for="allow_size">댓글허용</label>
+                            <input type="checkbox" id="allow_comment" name="allow_size" value="">
+                            <label for="allow_size">답글허용</label>
+                            <input type="checkbox" id="allow_recomment" name="allow_size" value="">
+                            <label for="allow_size">좋아요허용</label>
+                            <input type="checkbox" id="allow_good" name="allow_size" value="">
+                        </div>
+                  
+                    </from>
+                </div>
+
+
+            </div>
+            <!-- /컨텐츠 -->
+            <div id="footer">
+                Coptright (c) 2021 이선흠. all right reserved
+            </div>
+        </div>
+    </body>
+</html>

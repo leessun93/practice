@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>이선흠의 홈페이지 입니다</title>
+        <link rel="stylesheet" href="../asset/css/mysite.css">
+        <link rel="stylesheet" href="../asset/css/board.css">
+        <link rel="stylesheet" href="../asset/css/bWrite.css">
+        <style>
+       </style>
+           
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+    
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+            </div>
+
+            <!-- 컨텐츠 -->
+            <div id="contents2" class="clearfix">
+                <div id="aside">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li><a href="">일반 게시판</a></li>
+                        <li><a href="">댓글 게시판</a></li>
+                        <li><a href="">첨부 게시판</a></li>
+                    </ul>
+
+                </div>
+
+
+
+            
+                <div id="main">
+                
+
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ul>                                
+                    </div>
+                    
+
+                    <!-- 아이디 작성 시작 -->
+
+                    <div id="privit-info">
+                        <from action="" method="">
+
+                            <div class="info-line info-width">
+                                    <label for="u-id" class="holdbox">아이디</label>
+                                    <input type="text" id="u-id" name="user-id" value="" placeholder="아이디를 입력하세요">
+                            </div>
+
+
+
+                            <div class="info-line info-width">
+                                <label for="u-pswd" class="holdbox">패스워드</label>
+                                <input type="password" id="u-pswd" name="user-pswd" value="" placeholder="패스워드를 입력하세요">
+                            </div>
+                            
+                            
+                            
+                            
+                            <div class="info-line info-width">
+                                <label for="u-name" class="holdbox">이름</label>
+                                <input type="text" id="u-name" name="user-name" value="" placeholder="이름을 입력하세요">
+                            </div>
+
+
+                            <div class="info-line info-width">
+                                <label for="profile" class="holdbox">프로필사진</label>
+                                <input type="file" id="profile" name="u-pfile" value="" placeholder="선택된 파일 없음">
+                            </div>
+                            
+                            
+                            
+                            <div class="info-line info-width">
+                                <label class="holdbox adress">주소</label>
+                                <textarea id="adressfront"></textarea>
+                                <button>우편번호찾기</button>
+                                <textarea id="adressafter"></textarea>
+                            </div>
+
+
+
+                            <div class="info-line info-width">
+                                <label for="telecom" class="holdbox">이동통신사</label>
+                                <select name="telecom">
+                                        <option value="" selected="selected">선택해주세요</option>
+                                        <option value="sk">sk</option>
+                                        <option value="kt">kt</option>
+                                        <option value="lg">lg</option>
+                                        <option value="etc">기타</option>
+                                    </select>
+                            </div>
+
+
+
+                            <div class="info-line info-width">
+                                <label for="u_age" class="holdbox">나이</label>
+                                <label for="teen">10대</label>
+                                <input type="radio" id="teen" name="user_age" value="">
+                                <label for="twenty">20대</label>
+                                <input type="radio" id="twenty" name="user_age" value="">
+                                <label for="thirty">30대</label>
+                                <input type="radio" id="thirty" name="user_age" value="">
+                                <label for="forty">40대</label>
+                                <input type="radio" id="forty" name="user_age" value="">
+                                <label for="etc-age">기타</label>
+                                <input type="radio" id="etc-age" name="user_age" value="">
+
+                            </div>
+                                    
+                            
+                            
+                            
+                            
+                            <div class="info-line info-width">
+                                <label class="holdbox">취미</label>
+                                    
+                                <label for="book">독서</label>
+                                <input type="checkbox" id="book" name="hobby-book" value="">
+                                <label for="music">음악</label>
+                                <input type="checkbox" id="music" name="hobby-book" value="">
+                                <label for="travel">여행</label>
+                                <input type="checkbox" id="travel" name="hobby-book" value="">
+                                <label for="movie">영화</label>
+                                <input type="checkbox" id="movie" name="hobby-book" value="">
+                                <label for="cording">코딩</label>
+                                <input type="checkbox" id="cording" name="hobby-book" value="">
+                                <label for="etc-hobby">기타</label>
+                                <input type="checkbox" id="etc-hobby" name="hobby-book" value="">
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            <div class="info-line info-width">
+                                <label for="introduce" class="holdbox f-left">자기소개</label>
+                                <textarea id="introduce" name="self-intro" value=""></textarea>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="info-width btn-area">
+                                <button type="submit" class="btn">등록</button>
+                                <button type="reset" class="btn">초기화</button>
+                            </div>
+                         </from>
+
+
+                    </div>
+                   
+                   
+
+
+
+
+                   
+                   <!-- /아이디 작성 -->
+                </div>
+
+
+            </div>
+            <!-- /컨텐츠 -->
+            <div id="footer">
+                Coptright (c) 2021 이선흠. all right reserved
+            </div>
+        </div>
+    </body>
+</html>

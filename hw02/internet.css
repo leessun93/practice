@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* 기본값 */
+body {font-family:"맑은 고딕"; font-size: 17px;}
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+/* 글씨체 */
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.h1font{font-family: "궁서"; letter-spacing: 15px; font-size: 30px;}
+/* 색상 */
+.red {color: #ff0000;}
+.green {color: #00ff00;}
+.blue {color: #0000ff;}
+.backcolor {background-color: #d9d9d9;}
+th {background-color: #c8ebfa;}
+/* 라인 */
+.uline {text-decoration: underline;}
+#htext {font-family: 궁서; letter-spacing: 30px; word-spacing: 15px;}
+.indent {text-indent: 30px;}
+#usernum  {line-height: 35px;}
+/* 리스트 모양 */
+ul {list-style-type: square;}
+ol {list-style-type: decimal;}
+/* 정렬 */
+.right {text-align: right;}
+/* 앞뒤 */
+.bftd:before {content:"약";}
+.aftd:after {content:"(MB/초)";}
+/* 표 */
+table a:link {color: #000000; text-decoration: none;}
+table a:visited {color: #000000;}
+table a:hover {color: #0000ff; text-decoration: underline;}
+table a:active {color: #0000ff; text-decoration: overline;}
+tr:hover {background-color: #EDD3ED;}
+
+
+
+
+

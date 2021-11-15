@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            /* clearfix */
+                .clearfix{*zoom:1;}
+                .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+                .clearfix:after {clear: both;}
+
+                .box_gray {
+                    width: 850px;
+                    background-color: #bcbcbc;
+                    float: left;
+                }
+
+                .box_blue {
+                    width: 400px;
+                    background-color: #0000ff;
+                    float: left;
+                }
+                .box_green {
+                    width: 400px;
+                    background-color: #00ff00;
+                    float: left;
+                }
+                .red {
+                    width: 850px;
+                    height: 30px;
+                    background-color: #ff0000;
+                }
+        </style>
+    
+    </head>
+
+    <body>
+        <div class="box_gray clearfix">
+            <div class="box_blue ">파란박스</div>
+            <div class="box_green ">
+                초록박스<br>
+                초록박스<br>
+                초록박스<br>
+                초록박스<br>
+                초록박스<br>
+                초록박스<br>
+            </div>
+        </div>
+        <div class="red">
+            빨간색 박스
+        </div>
+        
+
+    </body>
+
+</html>

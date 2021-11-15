@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>이선흠의 홈페이지 입니다</title>
+        <link rel="stylesheet"  href="../asset/css/mysite.css">
+        <link rel="stylesheet"  href="../asset/css/board.css">
+        <style>
+            .search { 
+                text-align: right;
+                margin-top: 15px;
+            }
+            .chart{
+                border-collapse: collapse;
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .chart>thead>tr>th, .chart>tbody>tr>td {
+                padding: 10px 0px ;
+            }
+            .chart>thead>tr {
+                background-color: #a6a6a6;
+            }
+            .chart>thead>tr, .chart>tbody>tr {
+                border-bottom: 1px dotted #a6a6a6;}
+            .pagenum {
+                margin: 20px 0px 0px 300px;
+            }
+            
+            .pagenum>ul{
+                float: left;
+            }
+            .pagenum>ul>li{
+                float: left;
+                padding: 5px 5px;
+            }
+            .one::before {content:"◀";}
+            .ten::after {content:"▶";}
+            .pagenum>button {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+
+
+            </div>
+            <!-- 컨텐츠 -->
+            <div id="contents2" class="clearfix">
+                <div id="aside">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li><a href="">일반 게시판</a></li>
+                        <li><a href="">댓글 게시판</a></li>
+                        <li><a href="">첨부 게시판</a></li>
+                    </ul>
+
+                </div>
+            
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ul>                     
+                    </div>
+                    
+                    <div class="search">
+                        <input type="text">
+                        <button>검색</button>
+                    </div>
+
+                   
+                   
+                   
+                   
+                    <div>
+                        <table class="chart">
+                            <colgroup>
+                                <col style="width: 100px">
+                                <col style="width: 300px">
+                                <col style="width: 100px">
+                                <col style="width: 100px">
+                                <col style="width: 100px">
+                            </colgroup>
+                 
+
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>제목</th>
+                                    <th>글쓴이</th>
+                                    <th>조회수</th>
+                                    <th>작성일</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>aaaa</td>
+                                    <td>bbbbbb</td>
+                                    <td>cccccc</td>
+                                    <td>ddddd</td>
+                                    <td>ddddd</td>
+                                    <td>삭제</td>
+                                </tr>
+                                <tr>
+                                    <td>aaaa</td>
+                                    <td>bbbbbb</td>
+                                    <td>cccccc</td>
+                                    <td>ddddd</td>
+                                    <td>ddddd</td>
+                                    <td>삭제</td>
+                                </tr>
+                                <tr>
+                                    <td>aaaa</td>
+                                    <td>bbbbbb</td>
+                                    <td>cccccc</td>
+                                    <td>ddddd</td>
+                                    <td>ddddd</td>
+                                    <td>삭제</td>
+                                </tr>
+                                <tr>
+                                    <td>aaaa</td>
+                                    <td>bbbbbb</td>
+                                    <td>cccccc</td>
+                                    <td>ddddd</td>
+                                    <td>ddddd</td>
+                                    <td>삭제</td>
+                                </tr>
+                                <tr>
+                                    <td>aaaa</td>
+                                    <td>bbbbbb</td>
+                                    <td>cccccc</td>
+                                    <td>ddddd</td>
+                                    <td>ddddd</td>
+                                    <td>삭제</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                        
+                    </div>
+    
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   <div class="pagenum">
+                        <ul>
+                            <li class="one">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li class="ten">10</li>
+                        </ul>
+                        
+                        <button>글쓰기</button>
+                    </div>
+
+                </div>
+
+            </div>
+        
+
+           
+
+
+            <!-- /컨텐츠 -->
+            <div id="footer">
+                Coptright (c) 2021 이선흠. all right reserved
+            </div>
+        </div>
+    </body>
+</html>

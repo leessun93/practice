@@ -1,0 +1,206 @@
+@charset "UTF-8" ;
+
+/* 게시판 글쓰기 */
+#bwrite #select-boardtype {
+    width: 204px;
+    height: 20px;
+}
+
+
+
+#bwrite #text-title {
+    width: 680px;
+    height: 20px;
+}
+
+#bwrite #text-password {
+    width: 200px;
+    height: 20px;
+}
+
+#bwrite .form-text {
+    display: inline-block;
+    width: 80px;
+}
+
+#bwrite .form-group {
+  padding: 5px 0px 5px 0px
+}
+
+#bwrite input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#bwrite input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px; 
+}
+
+#bwrite #text-content {
+    width: 786px;
+    height: 300px;
+}
+
+#bwrite .btn-area {
+    border-top: 1px solid #000000;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+#bwrite .btn {
+    width: 55px;
+    padding: 5px 5px;
+    border-radius: 5px ;
+    text-align: center ;
+}
+#bwrite .btn-gray {
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+#bwrite .btn:hover{
+    background-color: #d9d9d9;
+}
+#bwrite .btn-red {
+    border: 1px solid #3f0202;
+    cursor: pointer;
+    background-color: #c40202;
+}
+
+#bwrite .btn:hover {
+    background-color: aqua;
+}
+
+/* unknown파일 css */
+
+.info-line {
+ border-bottom: 1px solid #a6a6a6;
+ margin:0px 5px;
+ padding: 10px 0px;
+}
+.holdbox {
+    display: inline-block;
+    width: 80px;
+}
+#adressfront {
+    width: 300px;
+}
+#adressafter {
+    width: 500px;
+    margin-left: 84px;
+}
+
+#privit-info input[type="radio"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+#privit-info input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+#introduce {
+    width: 500px;
+    height: 150px;
+}
+.f-left {
+    float: left;
+}
+
+#privit-info .btn-area {
+    text-align: center;
+}
+
+#privit-info .btn {
+    width: 55px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+#privit-info .btn:hover {
+    background-color: aqua;
+}
+
+
+/* ------------------------------------- */
+
+.loginbox { 
+    border: 1px solid #000000;
+    width: 500px;
+    height: 200px;
+    margin: 15px 100px 15px 150px;
+    text-align: center;
+}
+.loginbox>div>input, .loginbox>div>input{
+    display: inline-block;
+    width : 150px;
+    height : 30px;
+    padding-left: 10px;
+}
+.loginmap{
+    margin: 10px 0px 0px 0px;
+}
+.loginup{
+    margin-top: 50px;
+}
+.loginbox>button {
+    display: inline-block ;
+    width: 110px;
+    padding:5px 5px;
+    border-radius: 5px ;
+    text-align: center ;
+    margin-top: 15px;
+}
+
+/* ----------------------------------- */
+
+/* 방명록 페이지 입니다 */
+
+.vister_option{
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 15px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+.vister_option td, .vister_option tr{
+    padding: 5px 7px 5px 7px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+
+.looong{
+    width : 250px;
+    height: 25px;
+}
+.vister_text{
+    width: 714px;
+    height: 150px;
+}
+.vister_option>tbody>tr>td>button {
+    width: 110px;
+    border-radius: 5px 
+}
+.vister_result{
+    border-collapse: collapse;
+    margin: 10px 0px;
+    border: 1px solid #a6a6a6;
+}
+.vister_result td{
+    border: 1px solid #a6a6a6;
+}
+
+.vister_result>thead>tr {
+    border-bottom: 1px solid #000000;
+}
